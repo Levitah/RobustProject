@@ -2,5 +2,7 @@
 
 using RobustProject.Services.Repositories;
 
+Console.WriteLine("Hello world");
 
-IRosebudRepository rosebudRepository = new RosebudRepository();
+
+//IRosebudRepository rosebudRepository = new RosebudRepository();

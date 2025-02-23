@@ -1,4 +1,4 @@
-﻿namespace RobustProject.Services.Repository;
+﻿namespace RobustProject.Services.Entities;
 
 public class Entity : IEntity
 {
