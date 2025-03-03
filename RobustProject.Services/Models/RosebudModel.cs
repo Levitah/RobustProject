@@ -3,8 +3,10 @@ using System.ComponentModel.DataAnnotations;
 
 namespace RobustProject.Services.Models;
 
-public class RosebudModel : IModel, IValidatable
+public class RosebudModel : IModel<int?>, IValidatable
 {
+    public int? Id { get; set; }
+
     [Required]
     public required string Family { get; set; }
 

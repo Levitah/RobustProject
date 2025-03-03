@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "RobustProject.Functions": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7278",
+      "launchBrowser": true
+    }
+  }
+}

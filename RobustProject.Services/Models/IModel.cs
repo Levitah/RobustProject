@@ -1,6 +1,6 @@
 ﻿namespace RobustProject.Services.Models;
 
-public interface IModel
+public interface IModel<TId>
 {
-
+    public TId Id { get; set; }
 }

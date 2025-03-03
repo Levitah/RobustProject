@@ -6,7 +6,7 @@ public interface IUnitOfWork : IDisposable
 {
     Task<IDbContextTransaction?> BeginTransactionAsync(CancellationToken cancellationToken = default);
 
-    Task<int> SaveChangeAsync(CancellationToken cancellarionToken = default);
+    Task<int> SaveChangesAsync(CancellationToken cancellarionToken = default);
 
     Task CommitTransactionAsync(IDbContextTransaction transaction, CancellationToken cancellationToken = default);
 
